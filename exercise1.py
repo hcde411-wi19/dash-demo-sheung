@@ -11,8 +11,6 @@ ped_n = [26884, 26444, 25876, 24368, 23403, 36894, 32792]
 bike_s = [52642, 50812, 51866, 50913, 49740, 71586, 68147]
 bike_n = [52401, 49449, 50209, 49692, 47971, 69437, 67752]
 
-# TODO: working on this file to add more codes...
-
 # initialize Dash environment
 app = dash.Dash(__name__)
 

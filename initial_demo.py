@@ -8,7 +8,6 @@ weekday_in_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Sat
 counts_in_order = [160613, 154225, 155175, 150819, 146014, 215725, 203483]
 
 # initialize Dash environment
-
 app = dash.Dash(__name__)
 
 # set up an layout

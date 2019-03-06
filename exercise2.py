@@ -35,7 +35,6 @@ app.layout = html.Div(children=[
         figure={
             # configure the data
             'data': [
-                # set x to be weekday, and y to be the counts. We use bars to represent our data.
                 {'x': social_media_in_order , 'y': men_percentages, 'type': 'bar', 'name': 'Men'},
                 {'x': social_media_in_order , 'y': women_percentages, 'type': 'bar', 'name': 'Female'},
                 {'x': social_media_in_order , 'y': total_percentages, 'type': 'bar', 'name': 'Total'},
